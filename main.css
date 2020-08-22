@@ -1,0 +1,68 @@
+:root {
+    font-size: 60%;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1.5rem solid rgb(24, 23, 23);
+}
+
+/* .container {
+    background-image: url('https://i.em.com.br/N_h30PiJ5cVgYrrVqPju8eWR-bY=/675x/smart/imgsapp.em.com.br/app/noticia_127983242361/2012/06/27/302861/20120627172609928689a.jpg')
+} */
+
+.container {
+    background-color: rgb(49, 54, 49);
+
+    display: grid;
+
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+
+    vertical-align: middle;
+
+}
+
+.container .chuck-logo {
+    margin: auto;
+    display: block;
+    justify-content: center;
+}
+
+.container .chuck-norris-facts {
+    border: none;
+    text-align: center;
+    resize: none;
+    margin-top: 3rem;
+
+    background-color: rgb(49, 54, 49)
+}
+
+.container button {
+    height: 50%;
+    border-radius: 10%;
+
+    background-color: darkgrey;
+
+    transition: background 0.2s;
+}
+
+.container button:hover {
+    background-color: rgb(145, 141, 141)
+}
+
+.container textarea:focus, button:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
